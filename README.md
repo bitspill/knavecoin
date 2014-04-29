@@ -26,6 +26,5 @@ information or see http://opensource.org/licenses/MIT.
 
 ### Ports
 
-RPC: 16723
-P2P: 65411
-
+ - RPC: 16723
+ - P2P: 65411

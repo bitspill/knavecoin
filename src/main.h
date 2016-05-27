@@ -1377,6 +1377,7 @@ public:
 		    uint64_t years = (nTime - scheduleStart)/(60*60*24*365);
 		    uint64_t logb = 0;
 		    while (years >>= 1) ++logb;
+		    printf("GetNFactor: %d = %d\n", nTime, 9+logb);
 	            return 9 + logb;		    
 	    }
     }
